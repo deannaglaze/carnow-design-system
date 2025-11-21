@@ -1,0 +1,141 @@
+{
+  "name": "Toyota",
+  "colors": {
+    "primary": {
+      "50": "#FFE6E6",
+      "100": "#FFCCCC",
+      "200": "#FF9999",
+      "300": "#FF6666",
+      "400": "#FF3333",
+      "500": "#CC0000",
+      "600": "#A30000",
+      "700": "#7A0000",
+      "800": "#520000",
+      "900": "#290000"
+    },
+    "secondary": {
+      "50": "#EBEAEA",
+      "100": "#D7D5D5",
+      "200": "#AFABAB",
+      "300": "#878181",
+      "400": "#5F5757",
+      "500": "#3E3A39",
+      "600": "#322E2E",
+      "700": "#252322",
+      "800": "#191717",
+      "900": "#0C0C0B"
+    },
+    "tertiary": {
+      "50": "#F2EFFF",
+      "100": "#E5DFFF",
+      "200": "#CBBFFF",
+      "300": "#B19FFF",
+      "400": "#977FFF",
+      "500": "#7B61FF",
+      "600": "#624DCC",
+      "700": "#4A3A99",
+      "800": "#312766",
+      "900": "#191333"
+    },
+    "success": {
+      "50": "#E8F5E9",
+      "100": "#C8E6C9",
+      "500": "#4CAF50",
+      "700": "#388E3C",
+      "900": "#1B5E20"
+    },
+    "warning": {
+      "50": "#FFF3E0",
+      "100": "#FFE0B2",
+      "500": "#FF9800",
+      "700": "#F57C00",
+      "900": "#E65100"
+    },
+    "error": {
+      "50": "#FFEBEE",
+      "100": "#FFCDD2",
+      "500": "#F44336",
+      "700": "#D32F2F",
+      "900": "#B71C1C"
+    },
+    "surface": {
+      "background": "#FFFFFF",
+      "paper": "#F5F5F5",
+      "elevated": "#FFFFFF",
+      "border": "#E0E0E0"
+    },
+    "text": {
+      "primary": "#1A1A1A",
+      "secondary": "#6B6B6B",
+      "disabled": "#9E9E9E",
+      "inverse": "#FFFFFF"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "base": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+      "mono": "'Roboto Mono', 'SF Mono', 'Monaco', monospace"
+    },
+    "scale": {
+      "h1": {
+        "fontSize": "32px",
+        "lineHeight": "40px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.02em"
+      },
+      "h2": {
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.01em"
+      },
+      "h3": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "700",
+        "letterSpacing": "0"
+      },
+      "body": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "letterSpacing": "0"
+      },
+      "label": {
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "letterSpacing": "0"
+      },
+      "detail": {
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "0"
+      }
+    }
+  },
+  "spacing": {
+    "0": "0",
+    "1": "0.25rem",
+    "2": "0.5rem",
+    "3": "0.75rem",
+    "4": "1rem",
+    "5": "1.25rem",
+    "6": "1.5rem",
+    "8": "2rem",
+    "10": "2.5rem",
+    "12": "3rem",
+    "16": "4rem",
+    "20": "5rem",
+    "24": "6rem"
+  },
+  "borderRadius": {
+    "none": "0",
+    "sm": "0.25rem",
+    "md": "0.5rem",
+    "lg": "0.75rem",
+    "xl": "1rem",
+    "full": "9999px"
+  }
+}
