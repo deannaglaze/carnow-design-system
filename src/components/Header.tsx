@@ -55,6 +55,18 @@ export function Header() {
                 Components
               </Link>
             </div>
+            <div style={{ position: 'relative', display: 'inline-block' }}>
+              <Link
+                href="/editor"
+                style={{
+                  fontSize: 'var(--typography-body-font-size)',
+                  color: 'var(--color-text-secondary)',
+                  fontWeight: '500',
+                }}
+              >
+                Token Editor
+              </Link>
+            </div>
           </nav>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--spacing-4)' }}>

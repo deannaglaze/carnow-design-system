@@ -2,6 +2,7 @@
 
 import { Button } from '@/components/Button';
 import { CodeBlock } from '@/components/CodeBlock';
+import { ComponentPlayground } from '@/components/ComponentPlayground';
 
 export default function ButtonPage() {
   return (
@@ -19,6 +20,47 @@ export default function ButtonPage() {
           and three sizes (small, medium, large).
         </p>
       </div>
+
+      {/* Interactive Playground */}
+      <ComponentPlayground
+        component={Button}
+        controls={{
+          variant: {
+            type: 'select',
+            options: ['primary', 'secondary', 'text'],
+            default: 'primary',
+            label: 'Variant',
+          },
+          size: {
+            type: 'select',
+            options: ['small', 'medium', 'large'],
+            default: 'medium',
+            label: 'Size',
+          },
+          disabled: {
+            type: 'boolean',
+            default: false,
+            label: 'Disabled',
+          },
+          children: {
+            type: 'text',
+            default: 'Click me',
+            label: 'Button Text',
+          },
+        }}
+        codeTemplate={(props) => {
+          const lines = [
+            `<Button`,
+            `  variant="${props.variant}"`,
+            `  size="${props.size}"`,
+            props.disabled ? `  disabled` : null,
+            `>`,
+            `  ${props.children}`,
+            `</Button>`,
+          ].filter(Boolean);
+          return lines.join('\n');
+        }}
+      />
 
       {/* Variants */}
       <section style={{ marginBottom: 'var(--spacing-12)' }}>
