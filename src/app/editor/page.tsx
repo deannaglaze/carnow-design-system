@@ -8,7 +8,7 @@ import { Button } from '@/components/Button';
 import { tokensToCSSVariables, applyCSSVariables } from '@/lib/theme-utils';
 import { ColorEditor } from '@/components/editor/ColorEditor';
 import { TypographyEditor } from '@/components/editor/TypographyEditor';
-import { SpacingEditor } from '@/components/editor/SpacingEditor';
+// import { SpacingEditor } from '@/components/editor/SpacingEditor';
 import { BorderRadiusEditor } from '@/components/editor/BorderRadiusEditor';
 import { LivePreview } from '@/components/editor/LivePreview';
 
@@ -16,7 +16,7 @@ export default function TokenEditorPage() {
   const { brand: currentBrand, mode: currentMode } = useTheme();
   const [selectedBrand, setSelectedBrand] = useState<BrandName>(currentBrand);
   const [selectedMode, setSelectedMode] = useState<ThemeMode>(currentMode);
-  const [activeTab, setActiveTab] = useState<'colors' | 'typography' | 'spacing' | 'borderRadius'>('colors');
+  const [activeTab, setActiveTab] = useState<'colors' | 'typography' | 'borderRadius'>('colors');
 
   // Clone the current tokens for editing
   const [editedTokens, setEditedTokens] = useState<DesignTokens>(
@@ -51,7 +51,7 @@ export default function TokenEditorPage() {
   const tabs = [
     { id: 'colors' as const, label: 'Colors' },
     { id: 'typography' as const, label: 'Typography' },
-    { id: 'spacing' as const, label: 'Spacing' },
+    // { id: 'spacing' as const, label: 'Spacing' },
     { id: 'borderRadius' as const, label: 'Border Radius' },
   ];
 
@@ -191,7 +191,7 @@ export default function TokenEditorPage() {
                 </div>
               )}
 
-              {activeTab === 'spacing' && (
+              {/* {activeTab === 'spacing' && (
                 <div>
                   <h2 style={{ marginBottom: 'var(--spacing-4)' }}>Spacing Editor</h2>
                   <p style={{ color: 'var(--color-text-secondary)', marginBottom: 'var(--spacing-6)' }}>
@@ -202,7 +202,7 @@ export default function TokenEditorPage() {
                     onChange={(spacing) => setEditedTokens({ ...editedTokens, spacing })}
                   />
                 </div>
-              )}
+              )} */}
 
               {activeTab === 'borderRadius' && (
                 <div>
