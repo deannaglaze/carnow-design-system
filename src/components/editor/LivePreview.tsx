@@ -68,11 +68,11 @@ export function LivePreview() {
           Pills
         </h4>
         <div style={{ display: 'flex', gap: 'var(--spacing-2)', flexWrap: 'wrap' }}>
-          <Pill color="primary">Primary</Pill>
-          <Pill color="secondary">Secondary</Pill>
-          <Pill color="success">Success</Pill>
-          <Pill color="warning">Warning</Pill>
-          <Pill color="error">Error</Pill>
+          <Pill variant="primary">Primary</Pill>
+          <Pill variant="secondary">Secondary</Pill>
+          <Pill variant="success">Success</Pill>
+          <Pill variant="warning">Warning</Pill>
+          <Pill variant="error">Error</Pill>
         </div>
       </div>
 
