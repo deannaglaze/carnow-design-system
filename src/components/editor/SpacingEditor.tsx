@@ -95,19 +95,19 @@ export function SpacingEditor({ spacing, onChange }: SpacingEditorProps) {
   };
 
   const spacingKeys: Array<{ key: keyof Spacing; label: string }> = [
-    { key: '0', label: 'None (0)' },
-    { key: '1', label: 'Tiny (1)' },
-    { key: '2', label: 'XSmall (2)' },
-    { key: '3', label: 'Small (3)' },
-    { key: '4', label: 'Medium (4)' },
-    { key: '5', label: 'Base (5)' },
-    { key: '6', label: 'Large (6)' },
-    { key: '8', label: 'XLarge (8)' },
-    { key: '10', label: '2XLarge (10)' },
-    { key: '12', label: '3XLarge (12)' },
-    { key: '16', label: '4XLarge (16)' },
-    { key: '20', label: '5XLarge (20)' },
-    { key: '24', label: '6XLarge (24)' },
+    { key: 0, label: 'None (0)' },
+    { key: 1, label: 'Tiny (1)' },
+    { key: 2, label: 'XSmall (2)' },
+    { key: 3, label: 'Small (3)' },
+    { key: 4, label: 'Medium (4)' },
+    { key: 5, label: 'Base (5)' },
+    { key: 6, label: 'Large (6)' },
+    { key: 8, label: 'XLarge (8)' },
+    { key: 10, label: '2XLarge (10)' },
+    { key: 12, label: '3XLarge (12)' },
+    { key: 16, label: '4XLarge (16)' },
+    { key: 20, label: '5XLarge (20)' },
+    { key: 24, label: '6XLarge (24)' },
   ];
 
   return (
