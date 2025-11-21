@@ -33,7 +33,7 @@ export function ThemeSwitcher() {
       >
         {availableBrands.map((brandName) => (
           <option key={brandName} value={brandName}>
-            {tokens[brandName].name}
+            {tokens[brandName]['light'].name}
           </option>
         ))}
       </select>

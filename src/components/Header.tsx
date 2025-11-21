@@ -3,6 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { ThemeSwitcher } from './ThemeSwitcher';
+import { ModeToggle } from './ModeToggle';
 
 export function Header() {
   return (
@@ -56,7 +57,10 @@ export function Header() {
             </div>
           </nav>
         </div>
-        <ThemeSwitcher />
+        <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--spacing-4)' }}>
+          <ModeToggle />
+          <ThemeSwitcher />
+        </div>
       </div>
     </header>
   );

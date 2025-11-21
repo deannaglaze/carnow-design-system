@@ -5,8 +5,8 @@ import { tokens } from '@/tokens';
 import { Card } from '@/components/Card';
 
 export default function ColorsPage() {
-  const { brand } = useTheme();
-  const brandTokens = tokens[brand];
+  const { brand, mode } = useTheme();
+  const brandTokens = tokens[brand][mode];
 
   const ColorSwatch = ({
     name,

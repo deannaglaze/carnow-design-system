@@ -95,6 +95,7 @@ export interface BorderRadius {
 
 export interface DesignTokens {
   name: string;
+  mode?: 'light' | 'dark';
   colors: Colors;
   typography: Typography;
   spacing: Spacing;
@@ -102,3 +103,4 @@ export interface DesignTokens {
 }
 
 export type BrandName = 'carnow' | 'toyota' | 'ford';
+export type ThemeMode = 'light' | 'dark';

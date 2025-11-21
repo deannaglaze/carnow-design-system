@@ -6,8 +6,8 @@ import { Card } from '@/components/Card';
 import { CodeBlock } from '@/components/CodeBlock';
 
 export default function SpacingPage() {
-  const { brand } = useTheme();
-  const brandTokens = tokens[brand];
+  const { brand, mode } = useTheme();
+  const brandTokens = tokens[brand][mode];
 
   const spacingValues = [
     { name: 'xs (4px)', key: '1', value: '0.25rem', px: '4px', description: 'Extra small - tight spacing' },

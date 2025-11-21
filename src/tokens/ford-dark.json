@@ -1,0 +1,142 @@
+{
+  "name": "Ford",
+  "mode": "dark",
+  "colors": {
+    "primary": {
+      "50": "#000A18",
+      "100": "#001530",
+      "200": "#001F48",
+      "300": "#002A60",
+      "400": "#003478",
+      "500": "#33577F",
+      "600": "#66819F",
+      "700": "#99ABBF",
+      "800": "#CCD5DF",
+      "900": "#E6EAEF"
+    },
+    "secondary": {
+      "50": "#00080F",
+      "100": "#00101F",
+      "200": "#00172E",
+      "300": "#001F3D",
+      "400": "#00274C",
+      "500": "#33475B",
+      "600": "#667584",
+      "700": "#99A3AD",
+      "800": "#CCD1D6",
+      "900": "#E6E8EB"
+    },
+    "tertiary": {
+      "50": "#191333",
+      "100": "#312766",
+      "200": "#4A3A99",
+      "300": "#624DCC",
+      "400": "#7B61FF",
+      "500": "#977FFF",
+      "600": "#B19FFF",
+      "700": "#CBBFFF",
+      "800": "#E5DFFF",
+      "900": "#F2EFFF"
+    },
+    "success": {
+      "50": "#1B5E20",
+      "100": "#388E3C",
+      "500": "#66BB6A",
+      "700": "#81C784",
+      "900": "#C8E6C9"
+    },
+    "warning": {
+      "50": "#E65100",
+      "100": "#F57C00",
+      "500": "#FFB74D",
+      "700": "#FFD54F",
+      "900": "#FFE0B2"
+    },
+    "error": {
+      "50": "#B71C1C",
+      "100": "#D32F2F",
+      "500": "#EF5350",
+      "700": "#E57373",
+      "900": "#FFCDD2"
+    },
+    "surface": {
+      "background": "#1A1A1A",
+      "paper": "#2A2A2A",
+      "elevated": "#333333",
+      "border": "#3F3F3F"
+    },
+    "text": {
+      "primary": "#E0E0E0",
+      "secondary": "#A0A0A0",
+      "disabled": "#707070",
+      "inverse": "#1A1A1A"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "base": "'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+      "mono": "'Roboto Mono', 'SF Mono', 'Monaco', monospace"
+    },
+    "scale": {
+      "h1": {
+        "fontSize": "32px",
+        "lineHeight": "40px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.02em"
+      },
+      "h2": {
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.01em"
+      },
+      "h3": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "700",
+        "letterSpacing": "0"
+      },
+      "body": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "letterSpacing": "0"
+      },
+      "label": {
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "fontWeight": "400",
+        "letterSpacing": "0"
+      },
+      "detail": {
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "0"
+      }
+    }
+  },
+  "spacing": {
+    "0": "0",
+    "1": "0.25rem",
+    "2": "0.5rem",
+    "3": "0.75rem",
+    "4": "1rem",
+    "5": "1.25rem",
+    "6": "1.5rem",
+    "8": "2rem",
+    "10": "2.5rem",
+    "12": "3rem",
+    "16": "4rem",
+    "20": "5rem",
+    "24": "6rem"
+  },
+  "borderRadius": {
+    "none": "0",
+    "sm": "0.25rem",
+    "md": "0.5rem",
+    "lg": "0.75rem",
+    "xl": "1rem",
+    "full": "9999px"
+  }
+}
